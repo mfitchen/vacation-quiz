@@ -63,10 +63,16 @@ $(function() {
 
     if (totalA > totalB && totalA > totalC) {
       $("#italy").show();
+      $("#bvi").hide();
+      $("#nz").hide();
     } else if (totalB > totalA && totalB > totalC) {
       $("#bvi").show();
+      $("#italy").hide();
+      $("#nz").hide();
     } else {
       $("#nz").show();
+      $("#italy").hide();
+      $("#bvi").hide();
     }
 
     $(".name").text(name);
