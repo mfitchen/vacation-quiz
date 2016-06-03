@@ -2,6 +2,10 @@ h3 {
   margin-bottom: 20px;
 }
 
+img {
+  float: right;
+}
+
 .jumbotron {
   margin-top: 70px;
   background-image: url(../img/travel.jpg);
@@ -14,4 +18,16 @@ h3 {
 
 .row {
   margin-bottom: 20px;
+}
+
+.btn {
+  margin-right: 3px;
+}
+
+.glyphicon {
+  margin-right: 3px;
+}
+
+#italy, #bvi, #nz {
+  display: none;
 }
