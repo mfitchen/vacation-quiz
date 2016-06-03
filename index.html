@@ -9,6 +9,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
+<!-- ======= Nav Bar ====== -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -32,59 +33,157 @@
         <!--<p><a class="btn btn-success btn-lg" href="http://www.mfitchen.com/" target="_blank" role="button" alt="Website | MFitchen">Creative Portfolio</a></p>-->
       </div>
     </div>
-
-<!-- ======= End Jumbotron ====== -->
-
-<!-- ======= Portfolio ====== -->
-
+<!-- ======= Quiz ====== -->
     <div class="container">
-      <h3>PROGRAMMING PORTFOLIO</h3>
-      <div class="row">
-        <div class="col-md-4 grad">
-          <a class="glyphicon glyphicon-book" aria-hidden="true" href="https://github.com/mfitchen/wikipedia" target="_blank" alt="MF GitHub Repository | Wikipedia"></a>
-          <h3>Wikipedia Repository</h3>
-          <p>Bacon ipsum dolor amet frankfurter ham shoulder pancetta pork belly boudin andouille leberkas sirloin ground round turkey meatloaf chuck.</p>
-          <a class="btn btn-success btn-xs" href="https://github.com/mfitchen/wikipedia" target="_blank" role="button" alt="MF GitHub Repository | Wikipedia">View Repository</a>
+      <h3>QUIZ: Where In The World</h3>
+      <form id="vacation-quiz">
+        <div class="row">
+          <div class="col-md-4 grad">
+            <div class="form-group">
+              <label for="q1">Question 1: What is your name?</label>
+              <input id="q1" class="form-control" type="text" placeholder="Enter name">
+            </div>
+          </div>
+          <div class="col-md-4 grad">
+          </div>
+          <div class="col-md-4 grad">
+          </div>
         </div>
-        <div class="col-md-4 grad">
-          <a class="glyphicon glyphicon-globe" aria-hidden="true" href="https://github.com/mfitchen/vacation" target="_blank" alt="MF GitHub Repository | Vacation"></a>
-          <h3>Vacation Repository</h3>
-          <p>Bacon ipsum dolor amet frankfurter ham shoulder pancetta pork belly boudin andouille leberkas sirloin ground round turkey meatloaf chuck.</p>
-          <a class="btn btn-success btn-xs" href="https://github.com/mfitchen/vacation" target="_blank" role="button" alt="MF GitHub Repository | Vacation">View Repository</a>
+
+        <div class="row">
+          <div class="col-md-4 grad">
+            <label for="q2">Question 2:<br>What is your favorite travel activity?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="activity" value="a" checked>
+                Dining
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="activity" value="b">
+                Snorkeling
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="activity" value="c">
+                Skydiving
+              </label>
+            </div>
+          </div>
+          <div class="col-md-4 grad">
+            <label for="q3">Question 3:<br>What is your ideal travel time to your destination?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="time" value="b" checked>
+                0 - 6 Hours
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="time" value="a">
+                7 - 11 Hours
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="time" value="c">
+                12 Hours &amp; Up
+              </label>
+            </div>
+          </div>
+          <div class="col-md-4 grad">
+            <label for="q4">Question 4:<br>What is your ideal travel destination weather?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="weather" value="b" checked>
+                Hot
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="weather" value="a">
+                Mild
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="weather" value="c">
+                Cold
+              </label>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 grad">
-          <a class="glyphicon glyphicon-duplicate" aria-hidden="true" href="https://github.com/mfitchen/blogsite" target="_blank" alt="MF GitHub Repository | Blogsite"></a>
-          <h3>Blogsite Repository</h3>
-          <p>Bacon ipsum dolor amet frankfurter ham shoulder pancetta pork belly boudin andouille leberkas sirloin ground round turkey meatloaf chuck.</p>
-          <a class="btn btn-success btn-xs" href="https://github.com/mfitchen/blogsite" target="_blank" role="button" alt="MF GitHub Repository | Blogsite">View Repository</a>
+
+        <div class="row">
+          <div class="col-md-4 grad">
+            <label for="q5">Question 5:<br>What is your favorite alcoholic beverage?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="beverage" value="c" checked>
+                Beer
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="beverage" value="a">
+                Wine
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="beverage" value="b">
+                Umbrella Drinks
+              </label>
+            </div>
+          </div>
+          <div class="col-md-4 grad">
+            <label for="q6">Question 6:<br>What is your favorite travel food?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="food" value="c" checked>
+                Meats
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="food" value="b">
+                Seafood
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="food" value="a">
+                Pasta
+              </label>
+            </div>
+          </div>
+          <div class="col-md-4 grad">
+            <label for="q7">Question 7:<br>What is your ideal transportation method?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="transport" value="a" checked>
+                Train
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="transport" value="c">
+                Camper Van
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="transport" value="b">
+                Sailboat
+              </label>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <p><br></p>
-      </div>
-      <div class="row">
-        <div class="col-md-4 grad">
-          <a class="glyphicon glyphicon-cutlery" aria-hidden="true" href="https://github.com/mfitchen/cupcake" target="_blank" alt="MF GitHub Repository | Cupcake"></a>
-          <h3>Cupcake Repository</h3>
-          <p>Bacon ipsum dolor amet frankfurter ham shoulder pancetta pork belly boudin andouille leberkas sirloin ground round turkey meatloaf chuck.</p>
-          <a class="btn btn-success btn-xs" href="https://github.com/mfitchen/cupcake" target="_blank" role="button" alt="MF GitHub Repository | Cupcake">View Repository</a>
-        </div>
-        <div class="col-md-4 grad">
-          <a class="glyphicon glyphicon-sunglasses" aria-hidden="true" href="https://github.com/mfitchen/island-resort" target="_blank" alt="MF GitHub Repository | Island Resort"></a>
-          <h3>Island Resort Repository</h3>
-          <p>Bacon ipsum dolor amet frankfurter ham shoulder pancetta pork belly boudin andouille leberkas sirloin ground round turkey meatloaf chuck.</p>
-          <a class="btn btn-success btn-xs" href="https://github.com/mfitchen/island-resort" target="_blank" role="button" alt="MF GitHub Repository | Island Resort">View Repository</a>
-        </div>
-        <div class="col-md-4 grad">
-          <a class="glyphicon glyphicon-heart-empty" aria-hidden="true" href="https://github.com/mfitchen/bear-and-piper" target="_blank" alt="MF GitHub Repository | Bear and Piper"></a>
-          <h3>Bear &amp; Piper Repository</h3>
-          <p>Bacon ipsum dolor amet frankfurter ham shoulder pancetta pork belly boudin andouille leberkas sirloin ground round turkey meatloaf chuck.</p>
-          <a class="btn btn-success btn-xs" href="https://github.com/mfitchen/bear-and-piper" target="_blank" role="button" alt="MF GitHub Repository | Bear and Piper">View Repository</a>
-        </div>
-      </div>
-      <div class="row">
-        <p><br></p>
-      </div>
+
+        <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> TRAVEL</button>
+      </form>
     </div>
 
 
