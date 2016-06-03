@@ -1,0 +1,9 @@
+.jumbotron {
+  margin-top: 70px;
+  background-image: url(../img/travel.jpg);
+  background-position: 0% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.1em;
+}
