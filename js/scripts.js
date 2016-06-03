@@ -1,4 +1,4 @@
-$(function(){
+$(function() {
   $("form#vacation-quiz").submit(function(event) {
     event.preventDefault();
 
